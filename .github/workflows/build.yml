@@ -27,3 +27,4 @@ jobs:
         with:
           name: shopping-cart-jar
           path: target/shopping-cart.jar
+          distribution: 'github'
