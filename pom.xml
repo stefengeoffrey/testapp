@@ -8,17 +8,23 @@
         <artifactId>spring-boot-mysql</artifactId>
         <packaging>jar</packaging>
         <name>Spring Boot MySQL</name>
-             
+
         
     <dependencies>
         <!-- Spring Boot Starter Web -->
         <dependency>
+            <version>2.1.6.RELEASE</version>
+            <scope>compile</scope>
+            <optional>true</optional>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- MySQL Connector/J -->
         <dependency>
+            <version>8.0.16</version>
+            <scope>compile</scope>
+            <optional>true</optional>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
